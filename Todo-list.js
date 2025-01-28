@@ -26,6 +26,7 @@ function renderTasks() {
     });
 }
 
+
 function addTask() {
     const taskInput = document.getElementById('taskInput');
     const task = taskInput.value.trim();
