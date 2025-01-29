@@ -89,6 +89,7 @@ li button {
 }
 
 @media (min-width: 500px) {
+
     .form-group {
         flex-direction: row;
         gap: 10px;
