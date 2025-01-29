@@ -74,6 +74,7 @@ li button {
 .edit {
     background-color: #dcb338;
     color: white;
+    width: 50%;
 }
 .edit:hover {
     background-color: #e0a800;
@@ -81,6 +82,7 @@ li button {
 .delete {
     background-color: #dc3545;
     color: white;
+    width: 50%;
 }
 .delete:hover {
     background-color: #c82333;
