@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: black;
     margin: 40px 0px;
     padding: 0;
     display: flex;
@@ -15,7 +15,7 @@ body {
     width: 90%;
     max-width: 400px;
     padding: 20px;
-
+    overflow-wrap: break-word;
 }
 h1 {
     text-align: center;
@@ -31,7 +31,7 @@ h1 {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 94%;
 }
 .form-group button {
@@ -39,7 +39,7 @@ h1 {
     background-color: rgb(85, 202, 85) ;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -58,7 +58,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     color: white;
 }
 li span {
@@ -72,17 +72,18 @@ li button {
     cursor: pointer;
 }
 .edit {
-    background-color: #dcb338;
+    background-color: #6ac451;
     color: white;
-    width: 50%;
+    border-radius: 20px;
+
 }
 .edit:hover {
-    background-color: #e0a800;
+    background-color: #39a343;
 }
 .delete {
     background-color: #dc3545;
     color: white;
-    width: 50%;
+    border-radius: 20px;
 }
 .delete:hover {
     background-color: #c82333;
