@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script defer src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="darkModeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Pursharth Chaudhary<br> A passionate Web Developer</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-div">
+            <img src="no-profile.png" alt="Profile Picture">
+            <p>"I am a passionate and dedicated Web Developer with a strong background in Web Development. With
+                experience in web development, UI/UX design, I specialize in creating clean, user-friendly, and
+                responsive Websites. I enjoy solving complex problems and continuously learning new technologies to stay
+                ahead in the ever-evolving tech world."</p>
+        </div>
+        <div class="skills">
+            <p>HTML</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+            <p>CSS</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%"></div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.png" alt="Project 1">
+            <p>My main Portfolio Website</p>
+            <span class="span"><a href="https://github.com/pursharth2257/React-Projects/tree/main/my-portfolio">View Project</a></span>
+        </div>
+        <div class="project">
+            <img src="project2.png" alt="Project 2">
+            <p>Movie API</p>
+            <span class="span"><a href="https://github.com/pursharth2257/MovieAPI">View Project</a></span>
+        </div>
+        <div class="project">
+            <img src="project3.jpeg" alt="Project 3">
+            <p>My Project</p>
+            <span class="span"><a href="">View Project</a></span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="social-links">
+
+            <a href="https://www.linkedin.com/in/pursharth-chaudhary-737a34246/"><i class="fa fa-linkedin-square" style="font-size:30px"></i> LinkedIn</a>
+
+            <a href="https://github.com/pursharth2257"><i class="fa fa-github" style="font-size:30px"></i> GitHub</a>
+
+            <a href="https://x.com/Pursharth2257"><i class="fa fa-twitter" style="font-size:30px"></i> Twitter</a>
+        </div>
+    </footer>
+</body>
+
+</html>
