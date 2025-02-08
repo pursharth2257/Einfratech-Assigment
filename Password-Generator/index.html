@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fancy Password Generator</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="password.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -14,7 +14,10 @@
         <h2><i class="fas fa-key"></i> Password Generator</h2>
 
         <div class="options">
-            <label>Password Length: <input style="width: 50%;" type="number" id="length" min="4" max="32" value="12"></label>
+            <label>Password Length: 
+                <input type="range" id="length" min="4" max="32" value="12" oninput="lengthValue.textContent = this.value">
+                <span id="lengthValue">12</span>
+            </label>
             <label><input type="checkbox" id="uppercase" checked> Include Uppercase</label>
             <label><input type="checkbox" id="lowercase" checked> Include Lowercase</label>
             <label><input type="checkbox" id="numbers" checked> Include Numbers</label>
