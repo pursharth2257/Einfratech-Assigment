@@ -18,7 +18,7 @@ function Chatbot() {
     } else if (message.includes("services")) {
       response = "We offer web development, mobile app development, AI solutions, and more!";
     } else if (message.includes("contact")) {
-      response = "You can reach us at Navneetupa27@gmail.com or call +639-511-4433.";
+      response = "You can reach us at pursharth.chaudhary2257@gmail.com or call +111-222-3333.";
     } else {
       response = "I'm not sure, but our team would be happy to assist you!";
     }
