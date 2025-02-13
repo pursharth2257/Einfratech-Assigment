@@ -3,13 +3,13 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      {/* Hero Section */}
+      
       <div className="hero text-center flex-column">
         <h1>Welcome to PURSHARTH TRAVEL</h1>
         <h4 className="mt-3">Your adventure starts here</h4>
       </div>
 
-      {/* Popular Destinations */}
+     
       <div className="container mt-5">
         <h2 className="text-center">Popular Destinations</h2>
         <div className="row">

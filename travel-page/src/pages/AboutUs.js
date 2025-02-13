@@ -8,14 +8,14 @@ function AboutUs() {
       <section>
         <h2 className="text-center mb-4">Our Mission</h2>
         <p className="text-center text-white">
-          At ExploreTravel, we specialize in curating unforgettable travel experiences. Our team of experts is dedicated to providing personalized itineraries that cater to your every need. Whether you're seeking adventure, relaxation, or culture, we’ve got you covered.
+          At Pursharth Travel, we specialize in curating unforgettable travel experiences. Our team of experts is dedicated to providing personalized itineraries that cater to your every need. Whether you're seeking adventure, relaxation, or culture, we’ve got you covered.
         </p>
       </section>
 
       <section className="my-5">
         <h2 className="text-center mb-4">Our Story</h2>
         <p className="text-center text-white">
-          Founded in 2010, ExploreTravel began with a passion for travel and a vision to make exploring the world more accessible. Over the years, we have worked tirelessly to build strong relationships with global travel partners, ensuring that our clients have access to the best experiences.
+          Founded in 2010, Pursharth Travel began with a passion for travel and a vision to make exploring the world more accessible. Over the years, we have worked tirelessly to build strong relationships with global travel partners, ensuring that our clients have access to the best experiences.
         </p>
       </section>
 

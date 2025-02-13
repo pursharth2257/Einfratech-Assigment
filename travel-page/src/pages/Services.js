@@ -5,17 +5,17 @@ function Services() {
     <div className="container mt-5 pt-5">
       <h1 className="text-center mb-4 text-white">OUR SERVICES</h1>
 
-      {/* Introduction Section */}
+   
       <section>
         <p className="text-center text-white">
-          At ExploreTravel, we offer a range of services designed to make your travel experience seamless and unforgettable. Whether you’re looking for custom packages, group tours, or exclusive luxury experiences, we have something for everyone.
+          At Pursharth Travel, we offer a range of services designed to make your travel experience seamless and unforgettable. Whether you’re looking for custom packages, group tours, or exclusive luxury experiences, we have something for everyone.
         </p>
       </section>
 
-      {/* Service List */}
+     
       <section className="my-5">
         <div className="row">
-          {/* Custom Travel Packages */}
+      
           <div className="col-md-4">
             <div className="card">
               <img src="custom-travel.jpg" className="card-img-top" alt="Custom Travel Packages" />
@@ -27,7 +27,7 @@ function Services() {
             </div>
           </div>
 
-          {/* Group Tours */}
+       
           <div className="col-md-4">
             <div className="card">
               <img src="group-tour.webp" className="card-img-top" alt="Group Tours" />
@@ -39,7 +39,7 @@ function Services() {
             </div>
           </div>
 
-          {/* Adventure Travel */}
+     
           <div className="col-md-4">
             <div className="card">
               <img src="adventure-travel.jpg" className="card-img-top" alt="Adventure Travel" />
@@ -53,10 +53,10 @@ function Services() {
         </div>
       </section>
 
-      {/* More Services */}
+  
       <section>
         <div className="row">
-          {/* Luxury Travel */}
+          
           <div className="col-md-4">
             <div className="card">
               <img src="luxury-travel.jpg" className="card-img-top" alt="Luxury Travel" />
@@ -68,7 +68,7 @@ function Services() {
             </div>
           </div>
 
-          {/* Travel Insurance */}
+      
           <div className="col-md-4">
             <div className="card">
               <img src="travel-insurance.jpg" className="card-img-top" alt="Travel Insurance" />
@@ -80,7 +80,7 @@ function Services() {
             </div>
           </div>
 
-          {/* Other Services */}
+       
           <div className="col-md-4">
             <div className="card">
               <img src="other-services.jpg" className="card-img-top" alt="Other Services" />

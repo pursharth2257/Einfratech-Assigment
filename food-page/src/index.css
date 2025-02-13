@@ -5,10 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+/* Global styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('../public/home-background.jpg');
+  background-image: url('../public/food-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -39,7 +39,7 @@ body {
 
 
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1506748686212-0f2041d1d1e1?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhY2h8MTl8fHRyYXZlbHxlbnwwfDB8fDE2NjI0MzYyNjM&ixlib=rb-1.2.1&q=80');
+  background-image: url('');
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -68,7 +68,7 @@ body {
 }
 
 .about-us-heading {
-  font-size: 5rem;
+  font-size: 5rem; 
   color: #eeede6;
 }
 
