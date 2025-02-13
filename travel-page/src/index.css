@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('../public/home-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  min-height: 100vh;
+}
+
+/* Navbar Customization */
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1506748686212-0f2041d1d1e1?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhY2h8MTl8fHRyYXZlbHxlbnwwfDB8fDE2NjI0MzYyNjM&ixlib=rb-1.2.1&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Footer Customization */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 30px 0;
+}
+
+.about-us-heading {
+  font-size: 5rem; /* Adjust this size */
+  color: #eeede6;
+}
+
+
+.footer a {
+  color: #ffc107;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+/* Card Customization */
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #777;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Adjust this value as needed */
+}
+
+/* Button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
