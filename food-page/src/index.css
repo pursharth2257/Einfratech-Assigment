@@ -5,7 +5,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Global styles */
 body {
   font-family: 'Arial', sans-serif;
   background-image: url('../public/food-background.jpg');
