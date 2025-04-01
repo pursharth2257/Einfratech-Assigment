@@ -21,7 +21,7 @@ A web-based ERP system designed for eCommerce businesses to manage leads, sales,
 
 sales-lead-manage/
 
-├── backend/
+├── backend/                    # Backend folder moved outside this
 
 │   ├── config/
 
